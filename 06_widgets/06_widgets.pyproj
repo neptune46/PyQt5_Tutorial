@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>8abde034-ac3e-4eba-8c7c-49dc1ab9ec6f</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>qt32_QComboBox.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>06_widgets</Name>
+    <RootNamespace>06_widgets</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="qt24_QCheckBox.py" />
+    <Compile Include="qt25_Toggle_button.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qt26_QSlider.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qt27_QProgressBar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qt28_QCalendarWidget.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qt29_QPixmap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qt30_QLineEdit.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qt31_QSplitter.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="qt32_QComboBox.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

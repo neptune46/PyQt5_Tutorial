@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "02_Menu_Toolbar", "02_Menu_Toolbar\02_Menu_Toolbar.pyproj", "{0F3A1932-E3D4-477F-83F9-5E8D13B5A83C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "03_Layout", "03_Layout\03_Layout.pyproj", "{E86E1CD2-DABA-4068-A05B-F9F39ED19454}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "04_event_signal", "04_event_signal\04_event_signal.pyproj", "{6FCB1167-6F06-4DA4-A4F3-AA144C80BD2D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "05_Dialog", "05_Dialog\05_Dialog.pyproj", "{6D3A6959-0CE3-432D-8A6F-C36B0DCFB4A7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "06_widgets", "06_widgets\06_widgets.pyproj", "{8ABDE034-AC3E-4EBA-8C7C-49DC1AB9EC6F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "07_drag_and_drop", "07_drag_and_drop\07_drag_and_drop.pyproj", "{CAA1E303-15E6-48A2-8B08-889A91209593}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "08_Painting", "08_Painting\08_Painting.pyproj", "{7F773975-3D28-46F3-95A9-6385AEB22D3D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "09_Custom_widgets", "09_Custom_widgets\09_Custom_widgets.pyproj", "{B3D13928-F1E6-4258-A7F9-6D76625D9E23}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "10_Tetris_game", "10_Tetris_game\10_Tetris_game.pyproj", "{85A5088D-A693-430C-81AE-45B0A54E23D7}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "01_First_Program", "01_First_Program\01_First_Program.pyproj", "{E3F149F0-30CD-46EC-ADF8-110FEF9692BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F3A1932-E3D4-477F-83F9-5E8D13B5A83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3A1932-E3D4-477F-83F9-5E8D13B5A83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86E1CD2-DABA-4068-A05B-F9F39ED19454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86E1CD2-DABA-4068-A05B-F9F39ED19454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCB1167-6F06-4DA4-A4F3-AA144C80BD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCB1167-6F06-4DA4-A4F3-AA144C80BD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3A6959-0CE3-432D-8A6F-C36B0DCFB4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3A6959-0CE3-432D-8A6F-C36B0DCFB4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ABDE034-AC3E-4EBA-8C7C-49DC1AB9EC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ABDE034-AC3E-4EBA-8C7C-49DC1AB9EC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA1E303-15E6-48A2-8B08-889A91209593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA1E303-15E6-48A2-8B08-889A91209593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F773975-3D28-46F3-95A9-6385AEB22D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F773975-3D28-46F3-95A9-6385AEB22D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D13928-F1E6-4258-A7F9-6D76625D9E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D13928-F1E6-4258-A7F9-6D76625D9E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A5088D-A693-430C-81AE-45B0A54E23D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A5088D-A693-430C-81AE-45B0A54E23D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F149F0-30CD-46EC-ADF8-110FEF9692BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F149F0-30CD-46EC-ADF8-110FEF9692BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
